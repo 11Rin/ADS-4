@@ -52,7 +52,7 @@ int countPairs3(int *arr, int len, int value) {
         right = mid;
       }
       else
-      {left = mid;}
+        left = mid;
     }
   }
   return cnt;
